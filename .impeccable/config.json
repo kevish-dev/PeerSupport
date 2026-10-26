@@ -1,0 +1,26 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "frontend/components/landing/landing.css"
+        ],
+        "createdAt": "2026-10-26T08:47:47.116Z",
+        "reason": "The supplied landing-page reference visibly uses a sand left accent on its mentor callout; retained to match the requested design."
+      },
+      {
+        "rule": "border-accent-on-rounded",
+        "value": "*",
+        "files": [
+          "frontend/components/landing/landing.css"
+        ],
+        "createdAt": "2026-10-26T08:47:51.776Z",
+        "reason": "The supplied landing-page reference visibly uses green top accents on its two rounded audience cards; retained to match the requested design."
+      }
+    ]
+  }
+}
